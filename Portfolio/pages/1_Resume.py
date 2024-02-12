@@ -12,4 +12,4 @@ def ViewPDF(wch_fl):
         pdf_display = f'<center><embed style="text-align:center; margin: 0 auto;" src="data:application/pdf;base64,{base64_pdf}" width="1000" height="750" type="application/pdf"></center>' 
         st.markdown(pdf_display, unsafe_allow_html=True)
 
-ViewPDF("Resume.pdf") 
+ViewPDF("Portfolio/Resume.pdf") 
