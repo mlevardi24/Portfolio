@@ -22,17 +22,17 @@ with st.container(border=True):
     st.subheader("Languages I know:")
     col1, col2, col3, col4, col5, col6 = st.columns(6)
     with col1:
-        st.image("images/htmlIcon.png")
+        st.image("Portfolio/images/htmlIcon.png")
     with col2:
-        st.image("images/JSIcon.png")
+        st.image("Portfolio/images/JSIcon.png")
     with col3:
-        st.image("images/CSSIcon.png")
+        st.image("Portfolio/images/CSSIcon.png")
     with col4:
-        st.image("images/PythonIcon.png")
+        st.image("Portfolio/images/PythonIcon.png")
     with col5:
-        st.image("images/C#Icon.png")
+        st.image("Portfolio/images/C#Icon.png")
     with col6:
-        st.image("images/PHPIcon.png")
+        st.image("Portfolio/images/PHPIcon.png")
 
 st.markdown('#')
 st.markdown('#')
