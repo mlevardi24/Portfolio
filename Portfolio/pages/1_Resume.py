@@ -9,7 +9,7 @@ st.markdown("<h1 style='text-align: center; color: blue;'>Resume</h1>", unsafe_a
 def ViewPDF(wch_fl):
     with open(wch_fl,"rb") as pdf_file:
         base64_pdf = base64.b64encode(pdf_file.read()).decode('utf-8')
-        pdf_display = f'<center><embed style="text-align:center; margin: 0 auto;" src="data:application/pdf;base64,{base64_pdf}" width="1000" height="750" type="application/pdf"></center>' 
+        pdf_display = f'<center><iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="1000px" type="application/pdf"></iframe></center>'
         st.markdown(pdf_display, unsafe_allow_html=True)
 
 ViewPDF("Portfolio/pages/Resume.pdf") 
