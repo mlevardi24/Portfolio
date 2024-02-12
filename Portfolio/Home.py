@@ -42,4 +42,4 @@ with st.container(border=True):
     with col1:
         st.header("I'm currently a Senior in Columbia Montour Vo-Tech, taking a Computer Technology Course.")
     with col2:
-        st.image("Images/Rams.png")
+        st.image("Portfolio/images/Rams.png")
