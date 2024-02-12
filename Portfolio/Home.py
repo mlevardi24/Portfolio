@@ -28,7 +28,7 @@ with st.container(border=True):
     with col3:
         st.image("Portfolio/images/CSSIcon.png")
     with col4:
-        st.image("Portfolio/images/PythonIcon.png")
+        st.image("Portfolio/images/pythonIcon.png")
     with col5:
         st.image("Portfolio/images/C#Icon.png")
     with col6:
